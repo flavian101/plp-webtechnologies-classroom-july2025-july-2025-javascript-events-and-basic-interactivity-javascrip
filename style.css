@@ -1,0 +1,86 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    margin: 8px 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#counterValue {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+form {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#formMessage {
+    text-align: center;
+    font-weight: bold;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+}
+
+.dark-mode button {
+    background-color: #555;
+}
+
+.dark-mode button:hover {
+    background-color: #666;
+}
+
+.dark-mode form {
+    background-color: #2a2a2a;
+    box-shadow: none;
+}
+
+.dark-mode input {
+    background-color: #444;
+    color: white;
+    border: 1px solid #666;
+}
